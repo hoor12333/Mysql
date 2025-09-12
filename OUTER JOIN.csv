@@ -1,0 +1,5 @@
+student_id,student_name,course_name
+1,Alice,Math
+1,Alice,Science
+2,Bob,History
+3,Charlie,NULL
