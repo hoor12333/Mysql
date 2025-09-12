@@ -1,0 +1,5 @@
+SELECT * FROM Student
+INTO OUTFILE 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/student.csv'
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n';

@@ -1,0 +1,16 @@
+CREATE DATABASE IF NOT EXISTS testdb;
+Use testdb;
+
+DROP TABLE IF EXISTS Student;
+
+CREATE TABLE Student(
+   id INT PRIMARY KEY,
+   name VARCHAR(50),
+   marks INT 
+);
+INSERT INTO Student VALUES
+(1,'Amit',85),
+(2,'sakshi',90),
+(3,'gayatri',60);
+
+SELECT * FROM Student;
